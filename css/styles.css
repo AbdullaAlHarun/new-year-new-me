@@ -1,0 +1,54 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*combind section styele*/
+
+
+/*header Styles*/
+header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 7%;
+}
+.nav-title {
+    font-size: 56px;
+    font-weight: 800;
+    color: #151414;
+    margin: 0;
+}
+
+.nav-title span{
+    color: #F15B22;
+}
+
+.nav-title {
+    font-size: 56px;
+    font-weight: 800;
+}
+
+nav> ul {
+    list-style: none;
+    display: flex; 
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: #fff;
+}
+
+.header-content {
+    display: flex;
+    max-width: 500px;
+    text-align: right;
+    border: 2px solid red;
+    flex-direction: column;
+}
