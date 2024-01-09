@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+  }
+
+  .background {
+    height: 100vh;
+    width: 100vw;
+    background: url('../images/boat.webp') center/cover no-repeat; 
+    position: absolute;
+  }
